@@ -1,0 +1,8 @@
+{
+  "label": "How to play?",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Select the platform you'd like to play on."
+  }
+}
