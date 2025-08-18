@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Have a look at the list of games that we support on **DanceParty**:
 
-## [Legacy](./category/legacy)
+## Legacy
 - ✅ = Works completely
 - 👷 = Under work
 - ❓ = Not tested yet
