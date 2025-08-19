@@ -11,52 +11,77 @@ sidebar_position: 3
 
 2. **Homebrewed PS3**
    - Emulators won't work.
-   - Your console must be able to go online and have be on the latest version.
-   - You need to use PSN for this so make sure your account is logged-in and not banned.
+   - Your console must be able to go online and be on the latest version.
+   - You need to use PSN, so make sure your account is logged in and not banned.
 
 3. **DanceParty Patcher**  
    - Download it here: [DanceParty Patcher](https://github.com/dancepartyteam/patcher)
+
+4. **FileZilla (optional)**  
+   - Download it here: [FileZilla](https://filezilla-project.org/download.php?type=server)
+
+---
+
+:::danger[Disclaimer: Important Notice]
+
+To reduce the risk of a ban on your PlayStation 3, we recommend cleaning syscalls. While in-game, open the PS menu by pressing the PS button, then press △ + R2 simultaneously before connecting to PSN. A message should appear in the top-right corner if it worked correctly; if it doesn’t, press the buttons again until it does. This requires webMAN MOD to be installed on your PS3. If your copy is legitimate, you can also clean syscalls and sign in to PSN before launching the game. DanceParty and RyuAtelier is not responsible for anything that might occur to your console. Please continue with the risk in mind.
+
+:::
 
 ---
 
 ## Update your game
 
-Make sure that you've updated your game and you're on the latest version of it. Otherwise the patching process won't work.
+Make sure your game is updated to the latest version; otherwise, the patching process will not work.  
+To update, simply launch the game once and select `Yes` when prompted to install the update.
 
 ## Patching the Game
 
-### 1. Obtain `EBOOT.bin`
+### 1. Obtain `EBOOT.BIN`
 
-1. On your PS3, navigate to: `/dev_hdd0/`
-2. Locate your game's folder, usually inside `app/` or `game/`.  
-3. Copy the **EBOOT.BIN** file to your PC.
+:::danger[Disclaimer: For CFW users]
+Skip to step 3 if you're using CFW.
+:::
 
-### 2. Patch the `EBOOT.bin`
+1. On your PS3, navigate to **Settings → System Settings → System Information**.
+2. Write down your IP Address; we'll need it in the next steps.
+3. Navigate back to **Games** and turn on HEN.
+4. On your PC, open FileZilla. Make sure your PC and PS3 are on the same network.
+5. In FileZilla, enter your PS3's IP Address into the `Host` bar.
+6. Connect to your PS3 by clicking **Quickconnect**. Accept the insecure FTP connection warning.
+7. Navigate to `/dev_hdd0/game/`.
+8. Find your game's folder by its Game ID. You can check the Game ID on the left side of the game’s box or look it up online. European copies start with `BLES`, while American ones start with `BLUS`.
+9. Inside the game folder, open the `USRDIR` folder.
+10. You’ll find your `EBOOT.BIN` file there. Copy it to your PC, but **do not close FileZilla**, as we'll still need it.
 
-- Run the DanceParty patcher and provide the `EBOOT.bin` file:  
+### 2. Patch the `EBOOT.BIN`
+
+- Run the DanceParty patcher and provide the `EBOOT.BIN` file you just copied from your PS3:  
 1. Drag and drop the file onto `patcher.exe`  
 2. Or use the CLI:  
   ```bash
   patcher.exe path/to/EBOOT.bin
-  ```  
+````
 
-- The patcher will generate a patched `EBOOT.bin` file ready to be used on your PS3.
+* The patcher will generate a patched `EBOOT.BIN` ready for your PS3.
 
 ### 3. Replace the Original EBOOT
 
-1. Copy the patched `EBOOT.bin` back to the original location on your PS3: `/dev_hdd0/your_game_folder/`
-2. Overwrite the original file.  
+1. Copy the patched `EBOOT.BIN` from your PC back to `/dev_hdd0/game/your_game_folder/USRDIR/`, replacing `your_game_folder` with your game's ID.
+2. If prompted to overwrite, do so.
+3. Once the copy finishes, close FileZilla and launch the game using your preferred game manager (we recommend webMAN MOD).
 
-- Your game is now patched and ready to connect to the servers.
+* Your game is now patched and ready to connect to the servers.
 
 ---
 
 ## Notes & Troubleshooting
 
-- Ensure your PS3 is connected to the internet.  
-- Make sure the game is **fully updated** before patching.  
-- If your game doesn’t connect to the servers:  
-- Check your PS3 network settings.  
-- Make sure the patched `EBOOT.bin` is in the correct folder.  
-- For further assistance, [join our Discord](https://dp.ryuatelier.org/discord).
+* Ensure your PS3 is connected to the internet.
+* Make sure the game is **fully updated** before patching.
+* If your game doesn't connect to the servers:
 
+  * Check your PS3 network settings.
+  * Make sure the patched `EBOOT.BIN` is in the correct folder.
+  * Make sure you're connected to PSN.
+* For further assistance, [join our Discord](https://dp.ryuatelier.org/discord).

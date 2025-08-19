@@ -18,6 +18,14 @@ sidebar_position: 1
 
 ---
 
+:::danger[Disclaimer: Important Notice]
+
+DanceParty and RyuAtelier is not responsible for anything that might occur to your console. Please continue with the risk in mind.
+
+:::
+
+---
+
 ## Patching the DOL File
 
 ### 1. Extract the Game

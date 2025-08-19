@@ -19,12 +19,20 @@ sidebar_position: 2
 
 ---
 
+:::danger[Disclaimer: Important Notice]
+
+DanceParty and RyuAtelier is not responsible for anything that might occur to your console. Please continue with the risk in mind.
+
+:::
+
+---
+
 ## Playing the Game
 
 Once the prerequisites are met, playing the game is straightforward:
 
 1. **Set the Proxy in Network settings**  
-   - **Host:** `prxy-wiiu.ryuatelier.org`  
+   - **Host:** `NOT AVAILABLE AT THE MOMENT, PLEASE WAIT FOR RELEASE!`  
    - **Port:** `8002`
    - **Authentication:** No authentication
 

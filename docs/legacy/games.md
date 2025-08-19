@@ -16,7 +16,7 @@ Have a look at the list of games that we support on **DanceParty**:
 | Game / Console              | Wii** | Wii U** | PS3** | PS4 | Xbox 360 | Xbox One* |
 |-------------------|:---:|:-----:|:---:|:---:|:--------:|:--------:|
 | Just Dance 2014   | ✅  |  ➖   |  ➖ |  ➖ |    ➖    |    ➖    |
-| Just Dance 2015   | ✅  |  ✅   | ✅  |  ❓ |    ❓    |    ➖    |
+| Just Dance 2015   | ✅  |  ✅   | ✅  |  ➖ |    ❓    |    ➖    |
 | Just Dance 2016   | ✅  |  ➖   | 👷  | ➖ |    ➖    |    ➖    |
 | Just Dance 2017   | ✅  |  ➖   | 👷  | ➖ |    ➖    |    ➖    |
 | Just Dance 2018   | ✅  |  ➖   | 👷  | ➖ |    ➖    |    ➖    |
@@ -31,7 +31,7 @@ Have a look at the list of games that we support on **DanceParty**:
 | Game / Console | Wii | Wii U | PS3 | PS4 | Xbox 360 | Xbox One|
 |-------------------|:---:|:-----:|:---:|:---:|:--------:|:--------:|
 | Just Dance 2014   | ✅  |  ➖   |  ➖ |  ➖ |    ➖    |    ➖    |
-| Just Dance 2015   | ✅  |  ✅   | ✅  |  ❓ |    ✅    |    ➖    |
+| Just Dance 2015   | ✅  |  ✅   | ✅  |  ➖ |    ✅    |    ➖    |
 | Just Dance 2016   | ✅  |  ➖   | ✅  | ➖ |    ✅    |    ➖    |
 | Just Dance 2017   | ✅  |  ➖   | ✅  | ➖ |    ✅    |    ➖    |
 | Just Dance 2018   | ✅  |  ➖  | ✅  | ➖ |    ✅    |    ➖    |
@@ -39,7 +39,7 @@ Have a look at the list of games that we support on **DanceParty**:
 #### 🏅 Leaderboards
 | Game / Console | Wii | Wii U | PS3 | PS4 | Xbox 360 | Xbox One|
 |-------------------|:---:|:-----:|:---:|:---:|:--------:|:--------:|
-| Just Dance 2015   | ✅  |  ✅   | ✅  |  ❓ |    ✅    |    ➖    |
+| Just Dance 2015   | ✅  |  ✅   | ✅  |  ➖ |    ✅    |    ➖    |
 | Just Dance 2016   | ✅  |  ➖   | ✅  | ➖ |    ✅    |    ➖    |
 | Just Dance 2017   | ✅  |  ➖   | ✅  | ➖ |    ✅    |    ➖    |
 | Just Dance 2018   | ✅  |  ➖   | ✅  | ➖ |    ✅    |    ➖    |
@@ -47,7 +47,7 @@ Have a look at the list of games that we support on **DanceParty**:
 #### 🏆 Tournaments
 | Game / Console | Wii | Wii U | PS3 | PS4 | Xbox 360 | Xbox One|
 |-------------------|:---:|:-----:|:---:|:---:|:--------:|:--------:|
-| Just Dance 2015   | ➖  |  ✅   | ✅  |  ❓ |    ✅    |    ➖    |
+| Just Dance 2015   | ➖  |  ✅   | ✅  |  ➖ |    ✅    |    ➖    |
 | Just Dance 2016   | ➖  |  ➖   | ✅  | ➖ |    ✅    |    ➖    |
 | Just Dance 2017   | ➖  |  ➖   | ✅  | ➖ |    ✅    |    ➖    |
 | Just Dance 2018   | ➖ |  ➖   | ✅  | ➖ |   ✅    |    ➖    |
