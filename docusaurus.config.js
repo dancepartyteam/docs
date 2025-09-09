@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DanceParty Documentations',
+  title: 'DanceParty',
   tagline: 'Bring your console back to life with DanceParty and hit the dance floor just like the old days!',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/dancer.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -23,7 +23,7 @@ const config = {
   url: 'https://dp.ryuatelier.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs/',
+  baseUrl: '/',
   trailingSlash: false,
 
   // GitHub pages deployment config.
@@ -70,7 +70,7 @@ const config = {
         title: 'DanceParty',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/dancer.png',
         },
         items: [
           {
@@ -90,11 +90,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Pages',
             items: [
               {
                 label: 'Tutorial',
-                to: '/intro',
+                to: '/docs/intro',
               },
             ],
           },

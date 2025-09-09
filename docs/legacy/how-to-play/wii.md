@@ -20,7 +20,7 @@ sidebar_position: 1
 
 :::danger[Disclaimer: Important Notice]
 
-DanceParty and RyuAtelier is not responsible for anything that might occur to your console. Please continue with the risk in mind.
+DanceParty and RyuAtelier are not responsible for any issues that may occur with your console, including but not limited to bricking or account bans. Proceed at your own risk.
 
 :::
 

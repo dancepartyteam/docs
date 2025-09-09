@@ -12,18 +12,44 @@ sidebar_position: 2
 2. **Homebrewed Wii U**  
    - **Cemu emulator is not supported.**  
    - Your Wii U must be homebrewed and able to run unsigned software.
+
 3. **Pretendo**  
    - You must have **Pretendo** installed and used at least once before.  
-   - This guide assumes Pretendo is already set up on your Wii U.
-   - If you don't have it, [have a look at on how to set it up.](https://pretendo.network/docs/install/wiiu)
+   - This guide assumes Pretendo is already set up on your Wii U.  
+   - If you don't have it, [see how to set it up](https://pretendo.network/docs/install/wiiu).
+
+4. **DanceParty Hub**
+   - You must be registered to Hub. Hub is a centralized panel for our players to view stats, look at online content, and more.
+   - Once registered, go to your Profile and link your Wii U by entering your Pretendo NNID.
 
 ---
 
 :::danger[Disclaimer: Important Notice]
 
-DanceParty and RyuAtelier is not responsible for anything that might occur to your console. Please continue with the risk in mind.
+DanceParty and RyuAtelier are not responsible for any issues that may occur with your console, including but not limited to bricking or account bans. Proceed at your own risk.
 
 :::
+
+---
+
+## Hub
+
+Before you can play online, your Wii U must be linked to **DanceParty Hub**:
+
+1. **Register on Hub**  
+   - Go to [DanceParty Hub registration](https://dp-dev.ryuatelier.org) and create your account if you haven’t already.
+
+2. **Link your Wii U**  
+   - Open your Profile on Hub.  
+   - Enter your **Pretendo NNID** to link your Wii U to your account.
+
+:::danger[Connection Issues]
+
+If the game does not connect or you see a **"Server Error"**, this may be because your Wii U is **not registered to Hub**. Make sure you have linked your Pretendo NNID to your Hub account before launching the game.
+
+:::
+
+> ✅ Once linked, your Wii U will be able to connect to our servers automatically when you launch a supported game.  
 
 ---
 
@@ -32,12 +58,12 @@ DanceParty and RyuAtelier is not responsible for anything that might occur to yo
 Once the prerequisites are met, playing the game is straightforward:
 
 1. **Set the Proxy in Network settings**  
-   - **Host:** `NOT AVAILABLE AT THE MOMENT, PLEASE WAIT FOR RELEASE!`  
-   - **Port:** `8002`
+   - **Host:** `13.51.170.230`  
+   - **Port:** `8082`  
    - **Authentication:** No authentication
 
 2. **Launch the Game**  
-   - After configuring the proxy, simply start the game.  
+   - After configuring the proxy and linking your Hub account, simply start the game.  
    - Your Wii U will connect to the servers, and you can play immediately.
 
 ---

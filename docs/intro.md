@@ -28,3 +28,9 @@ We are **not affiliated with Ubisoft** or any of its subsidiaries. This project 
 **Vitality** will bring back access to **Just Dance: Vitality School** servers, letting you enjoy your favorite tracks on custom servers.  
 
 > ⚠️ **Note:** Vitality development has **not started yet** and is currently **planned only**. Follow our updates for progress and announcements.
+
+### Sing
+
+**Sing** will bring back access to **Just Sing** servers for PS4, letting you sing your favorite tracks on custom servers.  
+
+> ⚠️ **Note:** Sing development has **not started yet** and is currently **planned only**. Follow our updates for progress and announcements.
