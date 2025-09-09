@@ -50,11 +50,11 @@ DanceParty and RyuAtelier are not responsible for any issues that may occur with
 
 ---
 
-## Patching an ISO
+## Patching an ISO/WBFS
 
-1. Obtain the patcher and your ISO file.  
-2. Patch the ISO:  
-   - Drag & drop the ISO onto `patcher.exe`  
+1. Obtain the patcher and your ISO/WBFS file.  
+2. Patch the file:  
+   - Drag & drop the ISO/WBFS onto `patcher.exe`  
    - Or use the CLI:  
      ```bash
      patcher.exe path/to/your/game.iso
@@ -65,7 +65,7 @@ DanceParty and RyuAtelier are not responsible for any issues that may occur with
 
 ## Patching a WBFS
 
-- WBFS/NKIT/NKIT.GCZ files are **not supported**.  
+- NKIT/NKIT.GCZ files are **not supported**.  
 - Convert them to ISO and use the patcher.
 
 ---
