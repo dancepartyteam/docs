@@ -76,5 +76,6 @@ DanceParty and RyuAtelier are not responsible for any issues that may occur with
 **A:**  
 - Make sure your Wii is connected to the internet.  
 - Confirm Wi-Fi settings are correct and you agreed to the Wii Internet Agreement.  
-- Enable WiiConnect24 and other online features.  
+- Enable WiiConnect24 and other online features.
+- Make sure your Wii's MAC Address is linked to your account in [DanceParty Hub](https://dp-dev.ryuatelier.org/hub/profile).
 - If the issue persists, [join our Discord](https://dp.ryuatelier.org/discord) for help.
